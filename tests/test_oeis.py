@@ -8,6 +8,8 @@ from oeis import (
     buttered_croissant,
     catalan,
     centered_decagonal,
+    centered_dodecagonal,
+    centered_hendecagonal,
     centered_heptagonal,
     centered_hexagonal,
     centered_nonagonal,
@@ -78,6 +80,18 @@ def test_catalan() -> None:
 def test_centered_decagonal() -> None:
     expected: List[int] = [1, 11, 31, 61, 101, 151, 211, 281, 361, 451]
     actual: List[int] = list(islice(centered_decagonal(), 10))
+    assert actual == expected
+
+
+def test_centered_dodecagonal() -> None:
+    expected: List[int] = [1, 13, 37, 73, 121, 181, 253, 337, 433, 541]
+    actual: List[int] = list(islice(centered_dodecagonal(), 10))
+    assert actual == expected
+
+
+def test_centered_hendecagonal() -> None:
+    expected: List[int] = [1, 12, 34, 67, 111, 166, 232, 309, 397, 496]
+    actual: List[int] = list(islice(centered_hendecagonal(), 10))
     assert actual == expected
 
 

@@ -5,6 +5,8 @@ from .buttered_croissant import buttered_croissant
 from .catalan import catalan
 from .centered_polygonal import (
     centered_decagonal,
+    centered_dodecagonal,
+    centered_hendecagonal,
     centered_heptagonal,
     centered_hexagonal,
     centered_nonagonal,
@@ -61,6 +63,8 @@ __all__ = [
     "buttered_croissant",
     "catalan",
     "centered_decagonal",
+    "centered_dodecagonal",
+    "centered_hendecagonal",
     "centered_heptagonal",
     "centered_hexagonal",
     "centered_nonagonal",

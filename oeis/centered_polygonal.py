@@ -63,3 +63,15 @@ def centered_nonagonal() -> Iterable[int]:
 def centered_decagonal() -> Iterable[int]:
     """Centered decagonal numbers."""
     return centered_polygonal(10)
+
+
+@registry.register("A069125")
+def centered_hendecagonal() -> Iterable[int]:
+    """Centered hendecagonal numbers."""
+    return centered_polygonal(11)
+
+
+@registry.register("A003154")
+def centered_dodecagonal() -> Iterable[int]:
+    """Centered dodecagonal numbers."""
+    return centered_polygonal(12)
