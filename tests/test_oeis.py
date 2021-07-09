@@ -7,6 +7,7 @@ from oeis import (
     abundant,
     buttered_croissant,
     catalan,
+    centered_pentagonal,
     centered_square,
     centered_triangular,
     composite,
@@ -47,6 +48,7 @@ from oeis import (
     weird,
     woodall,
 )
+from oeis.centered_polygonal import centered_hexagonal
 from oeis.superperfect import superperfect
 
 
@@ -65,6 +67,17 @@ def test_buttered_croissant() -> None:
 def test_catalan() -> None:
     expected: List[int] = [1, 1, 2, 5, 14, 42, 132, 429, 1430, 4862]
     actual: List[int] = list(islice(catalan(), 10))
+    assert actual == expected
+
+
+def test_centered_hexagonal() -> None:
+    expected: List[int] = [1, 7, 19, 37, 61, 91, 127, 169, 217, 271]
+    actual: List[int] = list(islice(centered_hexagonal(), 10))
+    assert actual == expected
+
+def test_centered_pentagonal() -> None:
+    expected: List[int] = [1, 6, 16, 31, 51, 76, 106, 141, 181, 226]
+    actual: List[int] = list(islice(centered_pentagonal(), 10))
     assert actual == expected
 
 
@@ -307,8 +320,8 @@ def test_vauban() -> None:
 
 
 def test_weird() -> None:
-    expected: List[int] = [70, 836, 4030, 5830, 7192, 7912, 9272, 10430, 10570, 10792]
-    actual: List[int] = list(islice(weird(), 10))
+    expected: List[int] = [70, 836, 4030, 5830, 7192, 7912, 9272]
+    actual: List[int] = list(islice(weird(), 7))
     assert actual == expected
 
 

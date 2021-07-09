@@ -27,3 +27,15 @@ def centered_triangular() -> Iterable[int]:
 def centered_square() -> Iterable[int]:
     """Centered square numbers."""
     return centered_polygonal(4)
+
+
+@registry.register("A005891")
+def centered_pentagonal() -> Iterable[int]:
+    """Centered pentagonal numbers."""
+    return centered_polygonal(5)
+
+
+@registry.register("A003215")
+def centered_hexagonal() -> Iterable[int]:
+    """Centered hexagonal numbers."""
+    return centered_polygonal(6)

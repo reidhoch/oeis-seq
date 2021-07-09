@@ -3,7 +3,13 @@
 from .abundant import abundant
 from .buttered_croissant import buttered_croissant
 from .catalan import catalan
-from .centered_polygonal import centered_polygonal, centered_square, centered_triangular
+from .centered_polygonal import (
+    centered_hexagonal,
+    centered_pentagonal,
+    centered_polygonal,
+    centered_square,
+    centered_triangular,
+)
 from .composite import composite
 from .deficient import deficient
 from .eratosthenes import eratosthenes
@@ -50,6 +56,8 @@ __all__ = [
     "abundant",
     "buttered_croissant",
     "catalan",
+    "centered_hexagonal",
+    "centered_pentagonal",
     "centered_polygonal",
     "centered_square",
     "centered_triangular",
