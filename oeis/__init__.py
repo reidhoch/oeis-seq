@@ -4,7 +4,11 @@ from .abundant import abundant
 from .buttered_croissant import buttered_croissant
 from .catalan import catalan
 from .centered_polygonal import (
+    centered_decagonal,
+    centered_heptagonal,
     centered_hexagonal,
+    centered_nonagonal,
+    centered_octagonal,
     centered_pentagonal,
     centered_polygonal,
     centered_square,
@@ -56,7 +60,11 @@ __all__ = [
     "abundant",
     "buttered_croissant",
     "catalan",
+    "centered_decagonal",
+    "centered_heptagonal",
     "centered_hexagonal",
+    "centered_nonagonal",
+    "centered_octagonal",
     "centered_pentagonal",
     "centered_polygonal",
     "centered_square",
