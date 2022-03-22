@@ -229,7 +229,7 @@ def test_hexagonal_pyramidal() -> None:
     actual: List[int] = list(islice(hexagonal_pyramidal(), 10))
     assert actual == expected
 
-    
+
 def test_icosahedral() -> None:
     expected: List[int] = [1, 12, 48, 124, 255, 456, 742, 1128, 1629, 2260]
     actual: List[int] = list(islice(icosahedral(), 10))
