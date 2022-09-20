@@ -4,9 +4,9 @@ on:
   branch_protection_rule:
   schedule:
     # Weekly on Saturdays.
-    - cron: "* * * * *"
+    - cron: "*/10 * * * *"
   push:
-    branches: [develop, scorecard]
+    branches: [develop]
 
 # Declare default permissions as read only.
 permissions: read-all
