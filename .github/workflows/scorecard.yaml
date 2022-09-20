@@ -6,7 +6,7 @@ on:
     # Weekly on Saturdays.
     - cron: "* * * * *"
   push:
-    branches: [develop]
+    branches: [develop, scorecard]
 
 # Declare default permissions as read only.
 permissions: read-all
