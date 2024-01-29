@@ -1,4 +1,5 @@
 """Create a thin wrapper around OEIS Registry."""
+
 from collections.abc import Iterable
 from typing import Callable, Generic, TypeVar
 

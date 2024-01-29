@@ -1,4 +1,5 @@
 """OEIS Sequences."""
+
 from typing import Literal
 
 from .abundant import abundant
