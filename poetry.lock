@@ -60,21 +60,6 @@ tests-mypy = ["mypy (>=1.6)", "pytest-mypy-plugins"]
 tests-no-zope = ["attrs[tests-mypy]", "cloudpickle", "hypothesis", "pympler", "pytest (>=4.3.0)", "pytest-xdist[psutil]"]
 
 [[package]]
-name = "autoflake"
-version = "2.2.1"
-description = "Removes unused imports and unused variables"
-optional = false
-python-versions = ">=3.8"
-files = [
-    {file = "autoflake-2.2.1-py3-none-any.whl", hash = "sha256:265cde0a43c1f44ecfb4f30d95b0437796759d07be7706a2f70e4719234c0f79"},
-    {file = "autoflake-2.2.1.tar.gz", hash = "sha256:62b7b6449a692c3c9b0c916919bbc21648da7281e8506bcf8d3f8280e431ebc1"},
-]
-
-[package.dependencies]
-pyflakes = ">=3.0.0"
-tomli = {version = ">=2.0.1", markers = "python_version < \"3.11\""}
-
-[[package]]
 name = "bandit"
 version = "1.7.7"
 description = "Security oriented static analyser for python code."
@@ -2556,22 +2541,21 @@ testing-integration = ["build[virtualenv] (>=1.0.3)", "filelock (>=3.4.0)", "jar
 
 [[package]]
 name = "shed"
-version = "2024.1.1"
+version = "2024.3.1"
 description = "`shed` canonicalises Python code."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "shed-2024.1.1-py3-none-any.whl", hash = "sha256:d8e0d1e16c57039ead48857b88e5cec38f59a6ff65235cc7fe8b7276e021866d"},
-    {file = "shed-2024.1.1.tar.gz", hash = "sha256:35f8322b2c241e3b7eaff5e723b3b12dc9ab88531a1906c030ca04f5047e9a90"},
+    {file = "shed-2024.3.1-py3-none-any.whl", hash = "sha256:b226d108c29064164061da40ae890b56dd047c2591b4b4ff878ac8335b8afd8f"},
+    {file = "shed-2024.3.1.tar.gz", hash = "sha256:fa2d171645c7823281fa5a8fbddcb8f78687573196b392c98bf0e1c27b4c2e90"},
 ]
 
 [package.dependencies]
-autoflake = ">=1.4"
 black = ">=24.1.0"
 com2ann = ">=0.3.0"
-isort = ">=5.10.1"
 libcst = ">=1.1.0"
 pyupgrade = ">=3.15.0"
+ruff = "*"
 
 [[package]]
 name = "six"
@@ -2809,4 +2793,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "1266777cc0d28833c9843b412d4179fab8f98a676581a8cd33cb858f7bcab1a9"
+content-hash = "aec715f57f9d105456c3771af6521b749f8fdc20f1d9b45e95d3a4e72269a747"
