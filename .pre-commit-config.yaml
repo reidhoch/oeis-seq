@@ -21,7 +21,7 @@ repos:
       - id: fix-byte-order-marker
       - id: trailing-whitespace
   - repo: https://github.com/psf/black-pre-commit-mirror
-    rev: 24.2.0
+    rev: 24.3.0
     hooks:
       - id: black
   - repo: https://github.com/PyCQA/flake8
@@ -37,12 +37,12 @@ repos:
     hooks:
       - id: isort
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: "v0.3.2"
+    rev: "v0.3.3"
     hooks:
       - id: ruff
         args: [--no-cache]
   - repo: https://github.com/Zac-HD/shed
-    rev: 2024.1.1
+    rev: 2024.3.1
     hooks:
       - id: shed
         args: [--refactor, --py39-plus]
