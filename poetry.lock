@@ -748,12 +748,12 @@ setuptools = "*"
 
 [[package]]
 name = "flake8-logging-format"
-version = "0.9.0"
+version = "2024.24.12"
 description = ""
 optional = false
 python-versions = "*"
 files = [
-    {file = "flake8-logging-format-0.9.0.tar.gz", hash = "sha256:e830cc49091e4b8ab9ea3da69a3da074bd631ce9a7db300e5c89fb48ba4a6986"},
+    {file = "flake8_logging_format-2024.24.12-py3-none-any.whl", hash = "sha256:7d93c2107354b10a05b1a0d8ccd3a9bfb793aee108007765114c958a7541d674"},
 ]
 
 [package.extras]
@@ -2798,4 +2798,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "3a9d9660220edf13b0ce2f25401cc4a78b70288b06026bcf1510805e862d459f"
+content-hash = "6132dceedce2ce6b868ad9f5dd20721f590d1b2f46be4ca88642b5fc25a7b2b3"
