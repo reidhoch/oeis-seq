@@ -1,7 +1,7 @@
 """Create a thin wrapper around OEIS Registry."""
 
-from collections.abc import Iterable
-from typing import Callable, Generic, TypeVar
+from collections.abc import Callable, Iterable
+from typing import Generic, TypeVar
 
 T = TypeVar("T", bound=Callable[[], Iterable[int]])
 
