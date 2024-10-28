@@ -828,17 +828,17 @@ flake8 = "*"
 
 [[package]]
 name = "flake8-no-pep420"
-version = "2.7.0"
+version = "2.8.0"
 description = "A flake8 plugin to ban PEP-420 implicit namespace packages."
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.9"
 files = [
-    {file = "flake8_no_pep420-2.7.0-py3-none-any.whl", hash = "sha256:018bbe0fba039444689d02a0857310b62b90ff9bf737aff27e0b847ec7eb9ba3"},
-    {file = "flake8_no_pep420-2.7.0.tar.gz", hash = "sha256:a1b6db4de355b87f8189714e68785a7c6a2d61d94f3e937b6cee336953f7d703"},
+    {file = "flake8_no_pep420-2.8.0-py3-none-any.whl", hash = "sha256:0c00f88cab94724ccce916c2617b49b8a6c8fbc1171de8423b0a856a8ecbebf1"},
+    {file = "flake8_no_pep420-2.8.0.tar.gz", hash = "sha256:37e2cc47400033de66aa826bd08994aa6f9a2fdf9dfb9705723ff7946812019e"},
 ]
 
 [package.dependencies]
-flake8 = ">=3.0,<3.2.0 || >3.2.0"
+flake8 = ">=3,<3.2 || >3.2"
 
 [[package]]
 name = "flake8-noqa"
@@ -2834,4 +2834,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "ae1060ccb2543e4cfa21fb2c4b2db95bfecb9a196d0431831a00346996e9f4b8"
+content-hash = "0301c4c897b6c35d2d4dd6b43dc792e81e4ef330d0b4396e048563df709934a6"
