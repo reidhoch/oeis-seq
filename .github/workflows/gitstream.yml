@@ -42,7 +42,7 @@ jobs:
           egress-policy: audit
 
       - name: Evaluate Rules
-        uses: linear-b/gitstream-github-action@db3277b9487ba37b3a3609deaa040d4e84c5b5be # v2.0.97
+        uses: linear-b/gitstream-github-action@3c6f47db6994eddb2a9c592b8fe4e368e563d178 # v2.0.100
         id: rules-engine
         with:
           full_repository: ${{ github.event.inputs.full_repository }}
