@@ -2729,14 +2729,14 @@ type = ["importlib_metadata (>=7.0.2) ; python_version < \"3.10\"", "jaraco.deve
 
 [[package]]
 name = "shed"
-version = "2024.10.1"
+version = "2025.6.1"
 description = "`shed` canonicalises Python code."
 optional = false
 python-versions = ">=3.9"
 groups = ["dev"]
 files = [
-    {file = "shed-2024.10.1-py3-none-any.whl", hash = "sha256:fb8a76de5661f3aa33fca620660d8bc2cb16c6a83cc355a3e4eb2c138df01d96"},
-    {file = "shed-2024.10.1.tar.gz", hash = "sha256:094aa2f78fd5e307ba7ac31ee65caf501e552dca3ec70632234f8af62ca0c761"},
+    {file = "shed-2025.6.1-py3-none-any.whl", hash = "sha256:a238f34be0f040bdd705e4cbdaf3f98cdd30db832c34ca542037c8462556eb2a"},
+    {file = "shed-2025.6.1.tar.gz", hash = "sha256:43d056a2495172194ed23ee7738c49cde9cc3a54abbfa6178d5b70fd32b1a3b2"},
 ]
 
 [package.dependencies]
@@ -2998,4 +2998,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "6b4d9d08f0ea02358c49ce29286a0a1ed1ae93331beea9edd65ea94ed76de806"
+content-hash = "fef9830d6bacf322f3d67178d333125ed751dced512b773b3059634ed2e8fb75"
