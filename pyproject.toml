@@ -96,7 +96,7 @@ pytest-cov = "^6.1"
 pytest-xdist = {extras = ["psutil"], version = "^3.7"}
 ruff = "^0.11.13"
 seaborn = "^0.13"
-shed = "^2024.10"
+shed = "^2025.6"
 tox = "^4.26"
 
 [build-system]
