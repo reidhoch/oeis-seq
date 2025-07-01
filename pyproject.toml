@@ -93,7 +93,7 @@ pep8-naming = "^0.15.1"
 pre-commit = "^4.2"
 pytest = "^8.4"
 pytest-cov = "^6.2"
-pytest-xdist = {extras = ["psutil"], version = "^3.7"}
+pytest-xdist = {extras = ["psutil"], version = "^3.8"}
 ruff = "^0.12.1"
 seaborn = "^0.13"
 shed = "^2025.6"
