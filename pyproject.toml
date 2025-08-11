@@ -90,7 +90,7 @@ matplotlib = "^3.10"
 mypy = "^1.17"
 pandas = "^2.3"
 pep8-naming = "^0.15.1"
-pre-commit = "^4.2"
+pre-commit = "^4.3"
 pytest = "^8.4"
 pytest-cov = "^6.2"
 pytest-xdist = {extras = ["psutil"], version = "^3.8"}
