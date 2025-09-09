@@ -1055,14 +1055,14 @@ flake8 = ">=3.7"
 
 [[package]]
 name = "flake8-tidy-imports"
-version = "4.11.0"
+version = "4.12.0"
 description = "A flake8 plugin that helps you write tidier imports."
 optional = false
 python-versions = ">=3.9"
 groups = ["dev"]
 files = [
-    {file = "flake8_tidy_imports-4.11.0-py3-none-any.whl", hash = "sha256:607a76a7c2a9dec682e214f0692d4e7876862a618b766cef8f16979efac1ce22"},
-    {file = "flake8_tidy_imports-4.11.0.tar.gz", hash = "sha256:fcd57e275a9f4f8163db2ecb17c9c942d311750e2315cf9ae931f22f7043d496"},
+    {file = "flake8_tidy_imports-4.12.0-py3-none-any.whl", hash = "sha256:ab1e31a5ce07518a31c0a34cd92551f4c27639ae2c35a21364680a0318da312e"},
+    {file = "flake8_tidy_imports-4.12.0.tar.gz", hash = "sha256:9254788c3b6862c2fcec0250d2dc9af089afebff9c5b8a8ac8b9525b059b06db"},
 ]
 
 [package.dependencies]
@@ -3050,4 +3050,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "d3e739998af5abc2e2dfad559de1cb0350044cd1bdcb7bc0fb46394246fd9981"
+content-hash = "314aed3d338e85e6bfe6066dfbbf71e205f3a7c09d76fa1e9c526aefae7caf9e"
