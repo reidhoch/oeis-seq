@@ -898,14 +898,14 @@ flake8 = "*"
 
 [[package]]
 name = "flake8-no-pep420"
-version = "2.8.0"
+version = "2.9.0"
 description = "A flake8 plugin to ban PEP-420 implicit namespace packages."
 optional = false
 python-versions = ">=3.9"
 groups = ["dev"]
 files = [
-    {file = "flake8_no_pep420-2.8.0-py3-none-any.whl", hash = "sha256:0c00f88cab94724ccce916c2617b49b8a6c8fbc1171de8423b0a856a8ecbebf1"},
-    {file = "flake8_no_pep420-2.8.0.tar.gz", hash = "sha256:37e2cc47400033de66aa826bd08994aa6f9a2fdf9dfb9705723ff7946812019e"},
+    {file = "flake8_no_pep420-2.9.0-py3-none-any.whl", hash = "sha256:981d5d720dd545662f85625373badd4ca33a4e6484cc5ad976ca17d00dc994de"},
+    {file = "flake8_no_pep420-2.9.0.tar.gz", hash = "sha256:5dcd9e23bdd545cb957dd23987d9d227e733d1610717b0e13591262df1a33413"},
 ]
 
 [package.dependencies]
@@ -3050,4 +3050,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "314aed3d338e85e6bfe6066dfbbf71e205f3a7c09d76fa1e9c526aefae7caf9e"
+content-hash = "f035e73b0830868f1452e2f7871ef7a717ee37326f7f905124e41aa4f0eb194e"
