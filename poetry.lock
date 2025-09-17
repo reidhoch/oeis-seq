@@ -1188,14 +1188,14 @@ woff = ["brotli (>=1.0.1) ; platform_python_implementation == \"CPython\"", "bro
 
 [[package]]
 name = "hypothesis"
-version = "6.138.17"
+version = "6.139.1"
 description = "A library for property-based testing"
 optional = false
 python-versions = ">=3.9"
 groups = ["dev"]
 files = [
-    {file = "hypothesis-6.138.17-py3-none-any.whl", hash = "sha256:b2cf91f1926445cf4d44f5ec9a955c7f637f93e34247ac04e4fb44d010141c85"},
-    {file = "hypothesis-6.138.17.tar.gz", hash = "sha256:2419eef387211c63bed091938cf17fa909898f064d320e996bcd90383f5ce3c6"},
+    {file = "hypothesis-6.139.1-py3-none-any.whl", hash = "sha256:b0b39b194688e33208bd253ce6c167dc3c3beae3ccc4f74be130382af416b5ab"},
+    {file = "hypothesis-6.139.1.tar.gz", hash = "sha256:ab5418737efbd5e3aa57a2896ae6c6eec8dc47ab39a56757988468ab12223728"},
 ]
 
 [package.dependencies]
@@ -3050,4 +3050,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "5dcb6d73c5f17bbcb90bc47251eb6cdd3f4233b80efbf02041075ca8174b657b"
+content-hash = "0b670d32c59d5ec25799167419cf96a3f586e889109534416c3ee87ad2b27060"
