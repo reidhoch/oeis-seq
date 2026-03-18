@@ -97,7 +97,7 @@ pytest-xdist = {extras = ["psutil"], version = "^3.8"}
 ruff = "^0.15.6"
 seaborn = "^0.13"
 shed = "^2025.6"
-tox = "^4.49"
+tox = "^4.50"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
