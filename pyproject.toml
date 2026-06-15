@@ -91,7 +91,7 @@ mypy = "^2.1"
 pandas = "^2.3"
 pep8-naming = "^0.15.1"
 pre-commit = "^4.6"
-pytest = "^9.0"
+pytest = "^9.1"
 pytest-cov = "^7.1"
 pytest-xdist = {extras = ["psutil"], version = "^3.8"}
 ruff = "^0.15.17"
