@@ -799,14 +799,14 @@ flake8 = ">=3,<3.2 || >3.2"
 
 [[package]]
 name = "flake8-datetimez"
-version = "20.10.0"
+version = "26.8.1"
 description = "A plugin for flake8 to ban the usage of unsafe naive datetime class."
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.8"
 groups = ["dev"]
 files = [
-    {file = "flake8-datetimez-20.10.0.tar.gz", hash = "sha256:78939f3bcbe2b7fe48235998545c869c27cdfac3f45685099a3f7366c1ffebc6"},
-    {file = "flake8_datetimez-20.10.0-py3-none-any.whl", hash = "sha256:57aa2f55eb88797e2d8c06bd536ff8049b9f1ba877d81dc06ff8d9bdc195c1fc"},
+    {file = "flake8_datetimez-26.8.1-py3-none-any.whl", hash = "sha256:d85ea6a934dbe46703867348c7c7c626c3ccd06dfd2c06b90c8001c3ad0e64ef"},
+    {file = "flake8_datetimez-26.8.1.tar.gz", hash = "sha256:d060f3d2d4092e0d82509e00643745e68a9d7ad00842db5ff55a2dc25c0d86c8"},
 ]
 
 [package.dependencies]
@@ -3377,4 +3377,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "74b03de6805eb488efcbc7377b4b2d140fc0f3d5d198ee5daf60d8fde4c90a4c"
+content-hash = "44d4d2feab1eb09a9fc2201ef32063d6d40ea1e67cae4b438b1025ce7fbff391"
